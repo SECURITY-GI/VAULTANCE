@@ -1,18 +1,25 @@
-```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
 body {
   background: black;
   color: white;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 .glass-card {
-  background: rgba(255,255,255,0.05);
+  background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255,255,255,0.1);
-  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
+  padding: 20px;
 }
-```
