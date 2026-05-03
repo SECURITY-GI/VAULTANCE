@@ -1,5 +1,9 @@
-```tsx
-export default function Contact() {
-  return <div className="p-10">Contact Page</div>
+export default function ContactPage() {
+  return (
+    <div className="min-h-screen bg-black text-white flex items-center justify-center">
+      <h1 className="text-5xl font-bold text-purple-400">
+        Contact Vaultance
+      </h1>
+    </div>
+  );
 }
-```
