@@ -1,9 +1,18 @@
-```tsx
-export default function RootLayout({ children }) {
+import "./globals.css";
+
+export const metadata = {
+  title: "Vaultance",
+  description: "Future of virtual digital ownership"
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body>{children}</body>
     </html>
-  )
+  );
 }
-```
