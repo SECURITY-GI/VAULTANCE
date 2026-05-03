@@ -1,10 +1,9 @@
-```tsx
-export default function Dashboard() {
+export default function DashboardPage() {
   return (
-    <div className="p-10">
-      <h1>Your Vaultance Holdings</h1>
-      <p>Portfolio value tracking coming soon.</p>
+    <div className="min-h-screen bg-black text-white flex items-center justify-center">
+      <h1 className="text-5xl font-bold text-purple-400">
+        Vaultance Dashboard
+      </h1>
     </div>
-  )
+  );
 }
-```
